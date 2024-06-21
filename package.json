@@ -1,0 +1,49 @@
+{
+    "author": {
+        "email": "hafaiedhmehdy@gmail.com",
+        "name": "Mehdy Ben Hafaiedh"
+    },
+    "bugs": {
+        "url": "https://github.com/hafaiedhmehdy/graphql-upload-nextjs/issues"
+    },
+    "dependencies": {
+        "file-type": "^19.0.0",
+        "graphql": "^16.8.2",
+        "istextorbinary": "^9.5.0",
+        "next": "^13.0.0 || ^14.0.0"
+    },
+    "description": "The middleware and Upload scalar in this package enable GraphQL multipart requests (file uploads via queries and mutations) in your Apollo Server Next.js integration.",
+    "devDependencies": {
+        "@types/node": "^20.14.5",
+        "nodemon": "^3.1.3",
+        "typescript": "^5.4.5"
+    },
+    "homepage": "https://github.com/hafaiedhmehdy/graphql-upload-nextjs#readme",
+    "keywords": [
+        "Apollo Server",
+        "File streaming",
+        "File upload",
+        "GraphQL file upload",
+        "GraphQL resolver",
+        "GraphQL upload",
+        "GraphQL",
+        "Next.js integration",
+        "Next.js",
+        "Server-side upload"
+    ],
+    "license": "MIT",
+    "main": "index.js",
+    "name": "graphql-upload-nextjs",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/hafaiedhmehdy/graphql-upload-nextjs.git"
+    },
+    "scripts": {
+        "dev": "tsc -w | nodemon index.js",
+        "start": "tsc && node index.js",
+        "test": "jest"
+    },
+    "type": "module",
+    "types": "index.d.ts",
+    "version": "0.1.0"
+}
